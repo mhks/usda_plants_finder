@@ -1,21 +1,23 @@
-<div class="row">
-        <h1>USDA Plants of Oregon</h1>
-        
-        <table id="plants" data-source="<%= plants_url(format: "json") %>">
-          <thead>
-              <tr>
-                <th>Plant symbol</th>
-                <th>Synonym symbol</th>
-                <th>Scientific name</th>
-                <th>Common name</th>
-                <th>Plant family</th>
-              </tr>
-          </thead>
-        
-        <tbody></tbody>
-        </table>
+        <div class="row">
+            <h1>USDA Plants of Oregon</h1>
+            
+            <table id="plants" class="display" data-source="<%= plants_url(format: "json") %>">
+              <thead>
+                  <tr>
+                    <th>Plant symbol</th>
+                    <th>Synonym symbol</th>
+                    <th>Scientific name</th>
+                    <th>Common name</th>
+                    <th>Plant family</th>
+                  </tr>
+              </thead>
+            
+            <tbody></tbody>
+            </table>
+        </div>
+
   
-    </div>
+
 
 
 
