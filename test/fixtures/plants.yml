@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  plant_symbol: MyString
+  syn_symbol: MyString
+  sci_name: MyString
+  common_name: MyString
+  plant_family: MyString
+
+two:
+  plant_symbol: MyString
+  syn_symbol: MyString
+  sci_name: MyString
+  common_name: MyString
+  plant_family: MyString
