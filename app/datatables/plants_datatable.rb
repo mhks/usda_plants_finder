@@ -38,7 +38,8 @@ private
     if params[:sSearch].present?
       plants = plants.where("plant_symbol like :search 
         or sci_name like :search
-        or common_name like :search", search: "%#{params[:sSearch]}%")
+        or common_name like :search
+        or plant_family like :search", search: "%#{params[:sSearch]}%")
     end
    plants 
   end
