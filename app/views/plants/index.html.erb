@@ -1,8 +1,7 @@
 <div class="row">
-    <div class="span12">
-        <h1>USDA Plants of OR</h1>
+        <h1>USDA Plants of Oregon</h1>
         
-        <table id="plants" class="display" data-source="<%= plants_url(format: "json") %>">
+        <table id="plants" data-source="<%= plants_url(format: "json") %>">
           <thead>
               <tr>
                 <th>Plant symbol</th>
@@ -15,7 +14,8 @@
         
         <tbody></tbody>
         </table>
+  
     </div>
-</div>
+
 
 
