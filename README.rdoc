@@ -3,7 +3,7 @@ An app to make it easier to search and browse the entries found on the USDA plan
 
 == How to use it
 Search for common name, scientific name, symbol, and the results are returned immediately.  
-Currently at http://limitless-retreat-5684.herokuapp.com/
+
 
 
 
